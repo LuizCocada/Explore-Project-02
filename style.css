@@ -1,0 +1,86 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+}
+
+h1{
+  font-family: 'Mulish', sans-serif;
+  color: #000;
+  font-size: 49px;
+  line-height: 56px;
+  font-weight: normal;
+}
+h1 span{
+  color: #89C5CC;
+  font-weight: bold;
+  line-height: 56px;
+
+}
+
+p{
+  color: #7D7987;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+nav{
+  margin-top: 65px;
+  padding: 0 153px 0 122px;
+  display: flex;
+  justify-content: space-between;
+}
+#logo{
+  display: flex;
+  align-items: center;
+}
+
+ul{
+  display: flex;
+  text-align: center;
+  gap: 48px;
+  list-style: none;
+}
+
+button{
+  width: 180px;
+  height: 56px;
+  background: #69B99D;
+  border-radius: 4px;
+  border: none;
+  display: flex;
+  align-items: center;
+  padding: 14px 32px 15px;
+  gap: 10px;
+  color: #F9F9F9;
+}
+
+main{
+  width: 1008px;
+  height: 433px;
+  display: flex;
+  margin: auto;
+  justify-content: space-between;
+  padding-bottom: 110px;
+}
+
+footer{
+  margin: 0 344px 30px;
+  text-align: center;
+}
+
+footer a{
+  text-decoration: none;
+  color: #000;
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 28px;
+}
+
+#balls{
+  position: absolute;
+  bottom: 0;
+  right: 0;
+}
+
+
+
